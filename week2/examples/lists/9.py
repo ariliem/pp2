@@ -1,2 +1,3 @@
 thislist = ["apple", "banana", "cherry"]
-print(thislist)
+mylist = thislist.copy()
+print(mylist)
