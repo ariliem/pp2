@@ -1,7 +1,7 @@
 import re 
 
 s = input()
-pattern = r'a.*b'
+pattern = r'a.*b$'
 some = re.search(pattern, s)
 if some:
     print("Yes")
